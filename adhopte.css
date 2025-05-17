@@ -1,0 +1,20 @@
+
+.myContainer {
+    margin:auto;
+    width:1400px;
+}
+#scatter_div, #box_div {
+    float:left;
+    width:calc(50% - 10px);
+    padding:10px;
+}
+#box_div {
+    float:right;
+}
+svg {
+    width: 100%;
+    height: 800px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
